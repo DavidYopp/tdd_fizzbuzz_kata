@@ -3,6 +3,9 @@ import fizzbuzz
 
 
 class TestFizzBuzz(unittest.TestCase):
+    """
+    Tests for the FizzBuzz Program
+    """
 
     def test_multiple_of_3_returns_fizz(self):
         result = fizzbuzz.process_num(3)
